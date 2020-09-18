@@ -1,4 +1,4 @@
-const EveToc = artifacts.require("./EveToc.sol");
+const EveToc = artifacts.require("EveToc.sol");
 
 module.exports = function(deployer) {
   deployer.deploy(EveToc);
